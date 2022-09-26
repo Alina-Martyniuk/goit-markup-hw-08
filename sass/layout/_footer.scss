@@ -1,23 +1,50 @@
-footer {
+.page-footer {
     background-color: var(--bg-dark-color);
     font-size: 14px;
     line-height: 1.71;
     padding: 60px 0px;
 }
 
-.logo-footer {
-    color: var(--clear-white-color);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
+.page-footer__contacts{
+    display: flex;
+    flex-direction: column;
 }
 
-.logo-block {
+.page-footer__layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-footer__address{
+    margin-bottom: 60px;
+}
+
+.page-footer__address-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-footer__logo-block {
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 20px;
 }
 
-.address-footer {
+.page-footer__logo-link {
+    color: var(--clear-white-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+    display: block;
+    margin: 0px auto;
+}
+
+
+
+.page-footer__address-link {
     color: var(--clear-white-color);
     font-style: normal;
     transition: color var(--transition-dur-and-func);
@@ -28,7 +55,7 @@ footer {
     }
 }
 
-.contact-footer {
+.page-footer__contact {
     color: var(--font-color-adress);
     font-style: normal;
     transition: color var(--transition-dur-and-func);
@@ -39,20 +66,20 @@ footer {
     }
 }
 
-.contact-footer-list:not(:last-child) {
-    margin-bottom: 9px;
+.page-footer__address-item:not(:last-child) {
+    margin-bottom: 8px;
 }
 
-.footer-layout {
+.page-footer__social-contacts{
     display: flex;
-    align-items: baseline;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 60px;
 }
 
-.contacts {
-    margin-right: 70px;
-}
 
-.social-contacts-title {
+
+.page-footer__social-title {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -61,14 +88,14 @@ footer {
     color: var(--clear-white-color);
 }
 
-.social-contacts-list {
+.page-footer__social-list {
     display: flex;
     justify-content: center;
     gap: 10px;
 
 }
 
-.social-contacts-link {
+.page-footer__social-link {
     display: flex;
     width: 44px;
     height: 44px;
@@ -84,17 +111,19 @@ footer {
         }
 }
 
-.social-contacts-icon {
+.page-footer__social-icon {
     width: 20px;
     height: 20px;
     fill: var(--clear-white-color);
 }
 
-.subscribe-footer {
-    margin-left: auto;
+.page-footer__subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.subscribe-footer-title {
+.page-footer__subscribe-title {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 14px;
@@ -103,15 +132,10 @@ footer {
     color: var(--clear-white-color);
 }
 
-.subscribe-footer-layout {
-    display: flex;
-    gap: 12px;
-
-}
-
-.subscribe-footer-email {
+.page-footer__subscribe-email {
     display: inline-block;
-    width: 358px;
+    margin-bottom: 20px;
+    width: 450px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -128,11 +152,13 @@ footer {
     }
 }
 
-.subscribe-footer-btn {
+.page-footer__subscribe-btn {
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 12px;
     color: var(--clear-white-color);
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -142,7 +168,7 @@ footer {
     height: 50px;
 }
 
-.subscribe-footer-btn-text {
+.page-footer__subscribe-btn-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -152,9 +178,71 @@ footer {
 
 }
 
-.footer-submit-icon {
+.page-footer__submit-icon {
     fill: var(--clear-white-color);
     width: 24px;
     height: 24px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .page-footer__layout {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .page-footer__layout {
+        display: flex;
+        align-items: baseline;
+    }
+
+    .page-footer__contacts {
+        display: block;
+        margin-right: 70px;
+    }
+
+    .page-footer__address-list {
+        display: block;
+    }
+
+    .page-footer__social-contacts {
+        display: block;
+    }
+
+    .page-footer__subscribe {
+        display: block;
+        margin-left: auto;
+    }
+
+    .page-footer__logo-block {
+        margin-bottom: 20px;
+    }
+
+    .page-footer__logo-link {
+        font-size: 26px;
+        line-height: 1.19;
+    }
+
+    .page-footer__subscribe-layout {
+        display: flex;
+        gap: 12px;
+    }
+
+    .page-footer__address-item:not(:last-child) {
+        margin-bottom: 9px;
+    }
+
+    .page-footer__subscribe-email {
+        width: 358px;
+    }
+
+    .page-footer__subscribe-btn {
+        gap: 10px;  
+    }
 }
 

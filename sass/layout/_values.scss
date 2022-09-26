@@ -9,7 +9,7 @@
     line-height: 1.14;
     text-transform: uppercase;
     margin-bottom: 10px;
-
+    text-align: center;
 }
 
 .values__text {
@@ -17,16 +17,10 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-
-}
-
-.values__list {
-    display: flex;
-    gap: 30px;
 }
 
 .values__card {
-    flex-basis: calc((100% - 90px)/4);
+    margin-bottom: 30px;
 }
 
 .values__image {
@@ -44,5 +38,32 @@
     width: 70px;
     height: 70px;
     margin: 0 auto;
+}
 
+
+@media screen and (min-width: 768px) {
+    .values__title{
+        text-align: left;
+    }
+    .values__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .values__card {
+        flex-basis: calc((100% - 30px)/2);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .values__list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .values__card {
+        flex-basis: calc((100% - 90px)/4);
+    }
 }

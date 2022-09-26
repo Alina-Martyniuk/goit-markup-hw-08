@@ -109,7 +109,7 @@
         </div>
       </div>
     </header>
-    <!-- 
+
     <main>
       <section class="hero">
         <div class="container">
@@ -205,7 +205,41 @@
           <h2 class="team__title">Наша команда</h2>
           <ul class="list team__list">
             <li class="team-member">
-              <img src="./Images/igor.jpg" alt="Igor" width="270" />
+              <picture>
+                <source
+                  srcset="
+                    ../Images/team/igor-desktop.webp    1x,
+                    ../Images/team/igor-desktop@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="../Images/team/igor-desktop.jpg 1x, ../Images/team/igor-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="../Images/team/igor-tablet.webp 1x, ../Images/team/igor-tablet@2x.webp 2x"
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="../Images/team/igor-tablet.jpg 1x, ../Images/team/igor-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="../Images/team/igor-mob.webp 1x, ../Images/team/igor-mob@2x.webp 2x"
+                  media="(max-width: 767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="../Images/team/igor-mob.jpg 1x, ../Images/team/igor-mob@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./Images/igor.jpg" alt="Igor" />
+              </picture>
               <div class="team-member__details">
                 <h3 class="team-member__name">Ігор Дем'яненко</h3>
                 <p class="team-member__job-position">Product Designer</p>
@@ -242,7 +276,41 @@
               </div>
             </li>
             <li class="team-member">
-              <img src="./Images/olga.jpg" alt="Olga" width="270" />
+              <picture>
+                <source
+                  srcset="
+                    ../Images/team/olga-desktop.webp    1x,
+                    ../Images/team/olga-desktop@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="../Images/team/olga-desktop.jpg 1x, ../Images/team/olga-desktop@2x.jpg 2x"
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="../Images/team/olga-tablet.webp 1x, ../Images/team/olga-tablet@2x.webp 2x"
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="../Images/team/olga-tablet.jpg 1x, ../Images/team/olga-tablet@2x.jpg 2x"
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="../Images/team/olga-mob.webp 1x, ../Images/team/olga-mob@2x.webp 2x"
+                  media="(max-width: 767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="../Images/team/olga-mob.jpg 1x, ../Images/team/olga-mob@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./Images/olga.jpg" alt="Olga" />
+              </picture>
               <div class="team-member__details">
                 <h3 class="team-member__name">Ольга Рєпіна</h3>
                 <p class="team-member__job-position">Frontend Developer</p>
@@ -279,7 +347,50 @@
               </div>
             </li>
             <li class="team-member">
-              <img src="./Images/mykola.jpg" alt="Mykola" width="270" />
+              <picture>
+                <source
+                  srcset="
+                    ../Images/team/mykola-desktop.webp    1x,
+                    ../Images/team/mykola-desktop@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ../Images/team/mykola-desktop.jpg    1x,
+                    ../Images/team/mykola-desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ../Images/team/mykola-tablet.webp    1x,
+                    ../Images/team/mykola-tablet@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ../Images/team/mykola-tablet.jpg    1x,
+                    ../Images/team/mykola-tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="../Images/team/mykola-mob.webp 1x, ../Images/team/mykola-mob@2x.webp 2x"
+                  media="(max-width: 767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="../Images/team/mykola-mob.jpg 1x, ../Images/team/mykola-mob@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./Images/mykola.jpg" alt="Mykola" />
+              </picture>
               <div class="team-member__details">
                 <h3 class="team-member__name">Микола Тарасов</h3>
                 <p class="team-member__job-position">Marketing</p>
@@ -316,7 +427,53 @@
               </div>
             </li>
             <li class="team-member">
-              <img src="./Images/mykhailo.jpg" alt="Mykhailo" width="270" />
+              <picture>
+                <source
+                  srcset="
+                    ../Images/team/mykhailo-desktop.webp    1x,
+                    ../Images/team/mykhailo-desktop@2x.webp 2x
+                  "
+                  media="(min-width: 1200px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ../Images/team/mykhailo-desktop.jpg    1x,
+                    ../Images/team/mykhailo-desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+
+                <source
+                  srcset="
+                    ../Images/team/mykhailo-tablet.webp    1x,
+                    ../Images/team/mykhailo-tablet@2x.webp 2x
+                  "
+                  media="(min-width: 768px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ../Images/team/mykhailo-tablet.jpg    1x,
+                    ../Images/team/mykhailo-tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+
+                <source
+                  srcset="
+                    ../Images/team/mykhailo-mob.webp    1x,
+                    ../Images/team/mykhailo-mob@2x.webp 2x
+                  "
+                  media="(max-width: 767px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="../Images/team/mykhailo-mob.jpg 1x, ../Images/team/mykhailo-mob@2x.jpg 2x"
+                  media="(max-width: 767px)"
+                />
+                <img src="./Images/mykhailo.jpg" alt="Mykhailo" />
+              </picture>
               <div class="team-member__details">
                 <h3 class="team-member__name">Михайло Єрмаков</h3>
                 <p class="team-member__job-position">UI Designer</p>
@@ -407,78 +564,80 @@
       </section>
     </main>
 
-    <footer>
-      <div class="container footer-layout">
-        <div class="contacts">
-          <div class="logo-block">
-            <a href="./index.html" class="logo-footer"> <span class="logo">Web</span>Studio </a>
+    <footer class="page-footer">
+      <div class="container page-footer__layout">
+        <div class="page-footer__contacts">
+          <div class="page-footer__logo-block">
+            <a href="./index.html" class="page-footer__logo-link">
+              <span class="logo">Web</span>Studio
+            </a>
           </div>
-          <address>
-            <ul class="list">
-              <li class="contact-footer-list">
+          <address class="page-footer__address">
+            <ul class="page-footer__address-list list">
+              <li class="page-footer__address-item">
                 <a
                   href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
                   target="_blank"
                   rel="noopener noreferrer nofollow"
-                  class="address-footer"
+                  class="page-footer__address-link"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
-              <li class="contact-footer-list">
-                <a href="mailto:info@example.com" class="contact-footer">info@example.com</a>
+              <li class="page-footer__address-item">
+                <a href="mailto:info@example.com" class="page-footer__contact">info@example.com</a>
               </li>
-              <li class="contact-footer-list">
-                <a href="tel:+380991111111" class="contact-footer">+38 099 111 11 11</a>
+              <li class="page-footer__address-item">
+                <a href="tel:+380991111111" class="page-footer__contact">+38 099 111 11 11</a>
               </li>
             </ul>
           </address>
         </div>
-        <div class="social-contacts">
-          <p class="social-contacts-title">Приєднуйтесь</p>
-          <ul class="social-contacts-list list">
-            <li class="social-contacts-item">
-              <a href="" class="social-contacts-link">
-                <svg lang="en" aria-label="instagram-icon" class="social-contacts-icon">
+        <div class="page-footer__social-contacts">
+          <p class="page-footer__social-title">Приєднуйтесь</p>
+          <ul class="page-footer__social-list list">
+            <li class="page-footer__social-item">
+              <a href="" class="page-footer__social-link">
+                <svg lang="en" aria-label="instagram-icon" class="page-footer__social-icon">
                   <use href="./Images/sprite.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-contacts-item">
-              <a href="" class="social-contacts-link">
-                <svg lang="en" aria-label="twitter-icon" class="social-contacts-icon">
+            <li class="page-footer__social-item">
+              <a href="" class="page-footer__social-link">
+                <svg lang="en" aria-label="twitter-icon" class="page-footer__social-icon">
                   <use href="./Images/sprite.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-contacts-item">
-              <a href="" class="social-contacts-link">
-                <svg lang="en" aria-label="facebook-icon" class="social-contacts-icon">
+            <li class="page-footer__social-item">
+              <a href="" class="page-footer__social-link">
+                <svg lang="en" aria-label="facebook-icon" class="page-footer__social-icon">
                   <use href="./Images/sprite.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="social-contacts-item">
-              <a href="" class="social-contacts-link">
-                <svg lang="en" aria-label="linkedin-icon" class="social-contacts-icon">
+            <li class="page-footer__social-item">
+              <a href="" class="page-footer__social-link">
+                <svg lang="en" aria-label="linkedin-icon" class="page-footer__social-icon">
                   <use href="./Images/sprite.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div class="subscribe-footer">
-          <p class="subscribe-footer-title">Підпишіться на розсилку</p>
+        <div class="page-footer__subscribe">
+          <p class="page-footer__subscribe-title">Підпишіться на розсилку</p>
           <form name="subscribe_footer_form">
-            <label class="subscribe-footer-layout">
+            <label class="page-footer__subscribe-layout">
               <input
                 type="email"
                 name="email"
-                class="subscribe-footer-email"
+                class="page-footer__subscribe-email"
                 placeholder="E-mail"
               />
-              <button type="submit" class="subscribe-footer-btn">
-                <span class="subscribe-footer-btn-text"> Підписатися </span>
-                <svg lang="en" aria-label="submit-icon" class="footer-submit-icon">
+              <button type="submit" class="page-footer__subscribe-btn">
+                <span class="page-footer__subscribe-btn-text"> Підписатися </span>
+                <svg lang="en" aria-label="submit-icon" class="page-footer__submit-icon">
                   <use href="./Images/sprite.svg#icon-send"></use>
                 </svg>
               </button>
@@ -561,7 +720,7 @@
           </form>
         </div>
       </div>
-    </div> -->
+    </div>
 
     <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
