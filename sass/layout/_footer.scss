@@ -183,8 +183,11 @@
     width: 24px;
     height: 24px;
 }
-
-
+@media screen and (max-width: 480px) {
+    .page-footer__subscribe-email {
+        width: 200px;
+    }
+}
 
 @media screen and (min-width: 768px) {
     .page-footer__layout {
