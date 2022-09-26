@@ -15,7 +15,7 @@ color: var(--clear-white-color);
 .hero {
     padding: 118px 0px;
     width: 100%;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/Images/hero/hero-mob.jpg);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero/hero-mob.jpg);
     background-size: 480px 400px;
     background-position: center top;
     background-repeat: no-repeat;
@@ -26,14 +26,14 @@ color: var(--clear-white-color);
 screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx) {
     .hero{
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/Images/hero/Hero-mob@2x.jpg);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero/Hero-mob@2x.jpg);
     }
 }
 
 @media screen and (min-width: 768px) {
     .hero {
         background-size: 768px 400px;
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/Images/hero/Hero-tablet.jpg);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero/Hero-tablet.jpg);
     }
 }
 
@@ -41,7 +41,7 @@ screen and (min-resolution: 2dppx) {
 screen and (min-resolution: 192dpi) and (min-width: 768px),
 screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .hero {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/Images/hero/Hero-tablet@2x.jpg);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero/Hero-tablet@2x.jpg);
     }
 }
 
@@ -49,7 +49,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
     .hero {
         padding: 200px 0px;
         background-size: 1600px 600px;
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/Images/hero/hero-desktop.jpg);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero/hero-desktop.jpg);
     }
 
     .hero__title{
@@ -65,6 +65,6 @@ screen and (min-resolution: 2dppx) and (min-width: 768px) {
 screen and (min-resolution: 192dpi) and (min-width: 1200px),
 screen and (min-resolution: 2dppx) and (min-width: 1200px) {
     .hero {
-        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(/Images/hero/hero-desktop@2x.jpg);
+        background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/hero/hero-desktop@2x.jpg);
     }
 }
