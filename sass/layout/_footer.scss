@@ -209,12 +209,17 @@
         margin-right: 70px;
     }
 
+    .page-footer__address {
+        margin-bottom: 0px;
+    }
+
     .page-footer__address-list {
         display: block;
     }
 
     .page-footer__social-contacts {
         display: block;
+        margin-bottom: 0px;
     }
 
     .page-footer__subscribe {
@@ -242,6 +247,7 @@
 
     .page-footer__subscribe-email {
         width: 358px;
+        margin-bottom: 0px;
     }
 
     .page-footer__subscribe-btn {

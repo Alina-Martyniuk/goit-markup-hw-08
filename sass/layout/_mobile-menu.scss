@@ -19,10 +19,9 @@
 }
 
 .mobile-menu__container{
+    width: 100%;
     height: 100%;
-    padding-left: 40px;
-    padding-bottom: 48px;
-    padding-top: 48px;
+    padding: 48px 40px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -101,18 +100,16 @@
 
 .mobile-menu__social-list{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .mobile-menu__social-item{
+    padding: 10px;
+
     &:not(:last-child) {
         border-right: 1px solid rgba(33, 33, 33, 0.2);
-        padding-right: 10px;
     }
-
-    &:not(:first-child) {
-        padding-left: 10px;
-    }
-
 }
+
 
 
