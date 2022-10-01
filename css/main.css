@@ -462,6 +462,7 @@ button {
   }
   .values__card {
     flex-basis: calc((100% - 30px) / 2);
+    margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 1200px) {
